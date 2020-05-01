@@ -1,9 +1,41 @@
 html, body {
    margin: 0;
    height: 100%;
-}
+   overflow: hidden;
+   
+} 
+
 #c {
    width: 100%;
    height: 100%;
    display: block;
+}
+
+a{
+   font-family: 'Roboto Mono', monospace;
+   font-size: 1em;
+   position: fixed;
+   margin-top: 50px;
+}
+
+#title{
+   /* text-align: center; */
+   left: 44%; 
+   top: 0;
+}
+
+@-webkit-keyframes bg-animation {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@-moz-keyframes bg-animation {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@keyframes bg-animation {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
 }
